@@ -25,3 +25,9 @@ if __name__ == '__main__':
 @app.route('/healthz')
 def health():
     return jsonify({"status": "ok"})
+
+
+
+
+return jsonify({"message": "Backend is LIVE and auto-deploy working!"})
+
